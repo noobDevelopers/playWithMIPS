@@ -1,5 +1,8 @@
-#Complete the fibonacci as well as pattern function so that the program first generates fibonacci series and then printf the whole pattern in a right triangle pattern
+#Complete the fibonacci as well as pattern function so that the program first generates fibonacci series and then prints the whole pattern in a right triangle pattern
 
+# L-39
+# L-71
+#********************************************************************************************************************************
 	.data
 terms:		.asciiz		"ENTER THE NUMBER OF TERMS: "
 fibo:		.asciiz		"THE CORRESPONDING FIBONACCI SERIES IS: "
@@ -23,21 +26,33 @@ main:
 	# This loop calculates the fibonacci series.
 	# for(i = 1; i <= n; ++i)
 	# {
-	#	 printf("%d", t1);
-    #    nextTerm = t1 + t2;
-    #    t1 = t2;
-    #    t2 = nextTerm;
-    # }
+	#    printf("%d", t1);
+    	#    nextTerm = t1 + t2;
+    	#    t1 = t2;
+    	#    t2 = nextTerm;
+    	# }
 	
 	li		$v0,	4							# Printing output message.
 	la		$a0,	fibo
 	syscall
 	
+	#********************************************************************************************************************************
 	# Functon/loop to calculate and print fibonacci series.
 	fibonacci:
 		
-								#Implement fibonacci function (hint: use recurrsion)
+	#Implement fibonacci function (hint: use recurrsion)
 
+
+
+
+
+
+
+
+
+
+	#********************************************************************************************************************************
+	
 	# Ending of program.
 	terminate:
 		li		$v0,	10						# Tells the system to terminate.
@@ -51,9 +66,25 @@ main:
 		# 2 3 5
 		# 8 13 21 34
 		# ............... 	and the pattern continues
-
+		
+	#********************************************************************************************************************************
 	pattern:
 
-								#Implement pattern function (hint: use for loop)
+	#Implement pattern function (hint: use for loop)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#********************************************************************************************************************************
 
 	.end main
