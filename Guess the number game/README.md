@@ -1,4 +1,4 @@
-#playWithMIPS
+# playWithMIPS
 
 Who doesn't love to play games. But, developing a game is even more fun.
 
