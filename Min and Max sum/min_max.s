@@ -1,3 +1,5 @@
+#Write a code segment which computes minimum and maximum sum of 7 elements from the given array
+
 .data
 
 numbers: .word 8, 100, 0, 3, 7, 9, 2, 7, -3, 0		#create array which holds numbers
