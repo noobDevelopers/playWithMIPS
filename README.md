@@ -15,7 +15,7 @@ Here we provide you a hustle ground to take up some easy to medium level problem
 
 This repository contains numerous problem statement with handson code to craft a structure for solution... the problem is, creator of all such problems were newbie and hence could just suxcessfully generate the problem and not the solution...
 
-Let's find out solution for them...
+Let's find out solution for them..
 
 # Table of Contents
 1. <a href="https://github.com/noobDevelopers/playWithMIPS/tree/main/A%20SIMPLE%20CALCULATOR">A SIMPLE CALCULATOR</a>
