@@ -1,5 +1,8 @@
 # Complete the loop_fact so that the program computes the factorial of any number
 
+# L-33
+#********************************************************************************************************************************
+
 	.data
 prompt: .asciiz "ENTER ANY INTEGER: "
 res_1: .asciiz "THE FACTORIAL OF "
@@ -25,12 +28,21 @@ main:
 #	{
 # 		r *= i;	
 # 	}
-	
+
+#********************************************************************************************************************************
 loop_fact:
 		
-								#Implement factorial function (hint: use for loop)
+#Implement factorial function (hint: use for loop)
 
 		
+		
+		
+		
+		
+		
+		
+		
+#********************************************************************************************************************************
 # This loop prints the result		
 		
 print_fact:
