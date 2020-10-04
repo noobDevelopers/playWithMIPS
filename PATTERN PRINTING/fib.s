@@ -1,3 +1,5 @@
+#Complete the fibonacci as well as pattern function so that the program first generates fibonacci series and then printf the whole pattern in a right triangle pattern
+
 	.data
 terms:		.asciiz		"ENTER THE NUMBER OF TERMS: "
 fibo:		.asciiz		"THE CORRESPONDING FIBONACCI SERIES IS: "
