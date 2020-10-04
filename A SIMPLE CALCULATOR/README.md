@@ -1,1 +1,4 @@
-This program aims to build a simple calculator which does basic operations like add, sub, multiply, divide.
+## ASSEMBLY CALCULATOR
+The journey here will let you dive into the basic arithematic applications like addition,subtraction, multiplication, division using MIPS.
+
+Contributions to extend the functionality is open-heartedly welcomed.
