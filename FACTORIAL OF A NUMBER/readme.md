@@ -1,4 +1,4 @@
-# PLAY WITH MIPS!
+# playWithMIPS
 
 This program aims to calculate and then print the factorial of an integer.
 EX-:
