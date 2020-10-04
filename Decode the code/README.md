@@ -1,7 +1,9 @@
-# playWithMIPS
+## DecodeTheCode
 
-A program which converts Binary to Decimal.
+Binary has always been fun, and Assembly Language is my love.
 
-But!!!...
+So why not just let's try to convert this binary to decimal....
 
-This program was developed by a noob.....as you are a "NOOB" , help this noob to correct the incorrect program and make him feel proud!!!
+**Oops..!!** Something wrong with my code...I think I'm still a newbie..
+
+Hey newbie..!! Can you correct it...!!
