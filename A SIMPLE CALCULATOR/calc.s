@@ -1,3 +1,5 @@
+# Complete the addition, subtraction, multiplication, and division functions, so that the program works as a calculator.
+
 	.data
 num_1:		.asciiz		"ENTER 1st NUMBER: "
 num_2:		.asciiz		"ENTER 2nd NUMBER: "
