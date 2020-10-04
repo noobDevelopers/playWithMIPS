@@ -1,5 +1,8 @@
-#Write a code segment which computes minimum and maximum sum of 7 elements from the given array
+# Write a code segment which computes minimum and maximum sum of 7 elements from the given array
 
+# L-75
+# L-93
+#********************************************************************************************************************************
 .data
 
 numbers: .word 8, 100, 0, 3, 7, 9, 2, 7, -3, 0		#create array which holds numbers
@@ -67,11 +70,41 @@ final:
 	li $v0, 10						#end program
 	syscall
 
-
+#********************************************************************************************************************************
 min_sum:
+# Implement min_sum function. Think your own logic. Function should be able to return min sum of 7 elements from the array.
 
-				# Implement min_sum function. Think your own logic. Function should be able to return min sum of 7 elements from the array.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#********************************************************************************************************************************
 max_sum:
-		
-				# Implement max_sum function. Think your own logic. Function should be able to return max sum of 7 elements from the array.				
+# Implement max_sum function. Think your own logic. Function should be able to return max sum of 7 elements from the array.	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#********************************************************************************************************************************
