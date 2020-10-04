@@ -1,3 +1,5 @@
+# Complete guess 1,2,3,4,5 functions to make program work
+
 		.data
 wel:	.asciiz "\t\t\tWELCOME TO NUMBER GUESSING GAME\n\n"
 myarr:	.word 2 6 3 1 4 8 5 7 10 9
