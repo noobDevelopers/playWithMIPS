@@ -1,3 +1,5 @@
+# Correct the following code so that the program converts binary numbers to decimal, and can work perfectly.
+
 		.data
 msg:	.asciiz "Enter binary code: "
 dec:	.asciiz "\nDecoded number: "
