@@ -1,4 +1,6 @@
-#	.data
+# Complete the loop_fact so that the program computes the factorial of any number
+
+	.data
 prompt: .asciiz "ENTER ANY INTEGER: "
 res_1: .asciiz "THE FACTORIAL OF "
 res_2: .asciiz " is "
