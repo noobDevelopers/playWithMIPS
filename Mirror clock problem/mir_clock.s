@@ -1,5 +1,7 @@
-#Complete the logic which computes the inverted reading of clock(analog) on a mirror
+# Complete the logic which computes the inverted reading of clock(analog) on a mirror
 
+# L-32
+#********************************************************************************************************************************
 		.data
 hr:		.asciiz "Enter the hrs(question): "
 min:	.asciiz "Enter the min(question): "
@@ -20,16 +22,31 @@ main:
 		la $a0,	min
 		syscall
 
-		li $v0,	5								#Input minutes(int).
+		li $v0,	5								# Input minutes(int).
 		syscall
 		move $t1, $v0
 
 		li $s0, -1								# Loads -1 into the register, i.e., $s0 = -1
-
+	
+	#********************************************************************************************************************************
 	# Implement your logic to calculate the time as the input time is seen in a mirror.
 		
 		
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	#********************************************************************************************************************************
 		
 		li $v0,	4
 		la $a0, Hr
