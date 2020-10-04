@@ -1,4 +1,4 @@
-# playWithMIPS
+# The Mirror Clock
 
 A general problem when we see into a mirror, every object's image is inverted. The same concept is used in this problem. When a clock's image is seen in mirror whwn placed side by side the time also gets inverted sidewards. 
 
