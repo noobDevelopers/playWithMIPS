@@ -1,5 +1,10 @@
 # Complete the addition, subtraction, multiplication, and division functions, so that the program works as a calculator.
 
+# L-32
+# L-45
+# L-86
+
+#********************************************************************************************************************************
 	.data
 num_1:		.asciiz		"ENTER 1st NUMBER: "
 num_2:		.asciiz		"ENTER 2nd NUMBER: "
@@ -23,14 +28,29 @@ main:
 	la		$a0,	num_1
 	syscall
 	
-								# Input 1st integer.
+	#**********************************************************************************************************************
+	# Input 1st integer.
 	
 	
+	
+	
+	
+	
+	
+	#**********************************************************************************************************************
 	li		$v0,	4
 	la		$a0,	num_2
 	syscall
+	#**********************************************************************************************************************
+	# Input 2st integer.
 	
-								# Input 2st integer.
+	
+	
+	
+	
+	
+	
+	#**********************************************************************************************************************
 		
 	# Menu for different operations.	
 	menu:
@@ -62,33 +82,67 @@ main:
 	la		$a0,	new_line
 	syscall
 	
+	#********************************************************************************************************************************
 	# Addition Functon.
 	addition:
 		
-								#Implement addition function (hint: use for loop)
+	#Implement addition function (hint: use for loop)
+
+
+
+
+
+
+
+
+
 
 		j		menu								# Control goes back to menu function.
 	
 	# Subtraction Functon
 	subtraction:
 		
-								#Implement subtraction function (hint: use for loop)
+	#Implement subtraction function (hint: use for loop)
+
+
+
+
+
+
+
+
 
 		j		menu
 		
 	# Multiplication Function
 	multiplication:
 		
-								#Implement multiplication function (hint: use for loop)
+	#Implement multiplication function (hint: use for loop)
+
+
+
+
+
+
+
 
 		j		menu
 	
 	# Division Function
 	division:
 		
-								#Implement division function (hint: use for loop)
+	#Implement division function (hint: use for loop)
+
+
+
+
+
+
+
+
 
 		j		menu
+	#********************************************************************************************************************************
 	
 	# Function To Generate New Numbers.
 	new_num:
