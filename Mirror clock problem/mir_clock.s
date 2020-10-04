@@ -1,3 +1,5 @@
+#Complete the logic which computes the inverted reading of clock(analog) on a mirror
+
 		.data
 hr:		.asciiz "Enter the hrs(question): "
 min:	.asciiz "Enter the min(question): "
