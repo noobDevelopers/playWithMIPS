@@ -1,3 +1,5 @@
+#Complete the part where the program takes words and strings as input
+
 	.data
 welcome:		.asciiz		"\t\t\tWELCOME TO THE GAME OF MAD-LIBS!\n\n"
 phrase_1:		.asciiz		"I met a / an "
