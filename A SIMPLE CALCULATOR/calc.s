@@ -32,7 +32,9 @@ main:
 	# Input 1st integer.
 	
 	
-	
+	li $v0 ,5
+	syscall
+	move $t0,$v0 
 	
 	
 	
@@ -47,7 +49,9 @@ main:
 	
 	
 	
-	
+	li $v0 ,5
+	syscall
+	move $t1,$v0
 	
 	
 	#**********************************************************************************************************************
@@ -84,10 +88,18 @@ main:
 	
 	#********************************************************************************************************************************
 	# Addition Functon.
-	addition:
+	addition: 
 		
 	#Implement addition function (hint: use for loop)
-
+		
+		
+		
+		
+		add $a0,$t0,$t1
+		
+		li $v0, 1
+		syscall
+		
 
 
 
@@ -100,22 +112,21 @@ main:
 		j		menu								# Control goes back to menu function.
 	
 	# Subtraction Functon
-	subtraction:
+	#subtraction:
 		
 	#Implement subtraction function (hint: use for loop)
 
 
+		#sub $a1,$t0,$t1
+		
+		#li $v0, 1
+		#syscall
 
 
-
-
-
-
-
-		j		menu
+		#j		menu
 		
 	# Multiplication Function
-	multiplication:
+	#multiplication:
 		
 	#Implement multiplication function (hint: use for loop)
 
@@ -126,10 +137,10 @@ main:
 
 
 
-		j		menu
+		#j		menu
 	
 	# Division Function
-	division:
+	#division:
 		
 	#Implement division function (hint: use for loop)
 
@@ -141,7 +152,7 @@ main:
 
 
 
-		j		menu
+		#j		menu
 	#********************************************************************************************************************************
 	
 	# Function To Generate New Numbers.
