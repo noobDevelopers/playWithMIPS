@@ -31,7 +31,9 @@ main:
 	#**********************************************************************************************************************
 	# Input 1st integer.
 	
-	
+	li $v0,5
+	syscall
+	move $t0,$v0
 	
 	
 	
@@ -45,7 +47,9 @@ main:
 	# Input 2st integer.
 	
 	
-	
+	li $v0,5
+	syscall
+	move $t1,$v0
 	
 	
 	
@@ -89,7 +93,10 @@ main:
 	#Implement addition function (hint: use for loop)
 
 
-
+		add $a0,$t0,$t1
+		
+		li $v0, 1
+		syscall
 
 
 
@@ -106,7 +113,10 @@ main:
 
 
 
-
+		sub $a1,$t0,$t1
+		
+		li $v0,1
+		syscall
 
 
 
