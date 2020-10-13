@@ -23,54 +23,21 @@ main:
 	li $t1, 1			# counter variable
 	li $t2, 1			# result variable
 	li $t3, 0			
-	ble $t0, $t3, zero_fact			# base case
+	ble $t0, $t3, print_fact			# base case
 # This loop calculates the factorial
 # for(i = 1, r =1; i <= n; i++)
 #	{
 # 		r *= i;	
 # 	}
 
-#********************************************************************************************************************************
-#********************************************************************************************************************************
-#factorial implementation using loop
-loop_fact:
-	mul $t2, $t2, $t1
-	addi $t1, 1
-	ble $t1, $t0, loop_fact
-
-fact:
-	li $v0, 4
-	la $a0, res_1
-	syscall
-
-	li $v0, 1
-	move $a0, $t0
-	syscall
-
-	li $v0, 4
-	la $a0, res_2
-	syscall
-
-	li $v0, 1
-	move $a0, $t2
-	syscall
-
-	j final
-#*************************************************************************************************************************************
-final:
-	li $v0, 10
-	syscall
-
-		
+#********************************************************************************************************************************		
 #Implement factorial function (hint: use for loop)
-
 		
-		
-		
-		
-		
-		
-		
+loop_fact:
+	mul $t2, $t2, $t1							#result*=counter
+	addi $t1, 1									#counter+=1
+	ble $t1, $t0, loop_fact						#if counter<=input, continue with loop
+	bgt $t1, $t0, print_fact					#if counter>input, exit loop 
 		
 #********************************************************************************************************************************
 # This loop prints the result		
